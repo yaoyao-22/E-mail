@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	/*c3 的盒子模型*/
+}
+body{
+	background-color: #f8f8fa; /*#f0f1f5*/
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	margin: 0;
+}
+@font-face {
+	  font-family: 'icomoon';
+	  src:  url('../fonts/icomoon.eot?oej8wy');
+	  src:  url('../fonts/icomoon.eot?oej8wy#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?oej8wy') format('truetype'),
+		url('../fonts/icomoon.woff?oej8wy') format('woff'),
+		url('../fonts/icomoon.svg?oej8wy#icomoon') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+}
+.w{
+	width: 970px;
+	margin: 0 auto;
+}

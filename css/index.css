@@ -1,0 +1,379 @@
+/*顶部 start*/
+header{
+	height: 65px;	
+	background-color: #fff;
+}
+.inner{
+	height: 65px;
+/*	background-color: pink;	*/
+	padding-top: 15px;
+}
+/*logo部分*/
+.logo{
+	width: 131px;
+	height: 29px;
+	float: left;
+}
+.logo a{
+	display: block;
+	width: 131px;
+	height: 69px;
+	background: url(../images/163.png) no-repeat;
+	text-indent: -999px;
+	overflow: hidden;	/*缩进之后记得隐藏*/
+}
+.china{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	border-left: 1px solid #ccc;
+	margin-left: 15px;
+	padding-left: 15px;
+	color: #777;
+	font-size: 16px;
+}
+/*导航栏部分*/
+nav{
+	float: right;
+}
+nav li{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 15px;
+}
+nav li a{
+	display: inline-block;
+	color: #777;
+	font-size: 12px;
+}
+nav a:hover{
+	color: #626262;
+}
+/*顶部 end*/
+
+/*版心 start*/
+.banner{
+	height: 600px;
+/*	background-color: pink;	*/
+	padding-top: 30px;
+	position: relative;
+}
+/*广告部分*/
+.ad{
+	width: 515px;
+	height: 600px;
+/*	background-color: yellow;	*/
+	float: left;
+	padding: 45px 50px 0 160px;
+}
+.ad-hd{
+	width: 280px;
+	height: 175px;
+	border: 1px solid #ccc;
+	margin-right: 20px;
+	position: relative;
+}
+.ad-hd a:first-child{
+	display: block;
+	width: 180px;
+	height: 18px;
+	margin: -10px auto;
+	color: #999;
+	background-color: #f8f8fa;
+}
+.ad-hd a:first-child:hover{
+	color: #d12b2f;
+}
+.ad-hd ul{
+	height: 120px;
+	text-align: center;
+	padding-top: 15px;
+	margin: 0 55px;
+}
+.ad-hd li{
+	font-family: "宋体";
+	padding: 5px 0;
+}
+.ad-hd li:first-child{
+	color: #2d2d2d;
+	font-size: 20px;
+	font-weight: 700;
+}
+.ad-hd li:nth-child(2){
+	color: #cf2b2c;
+	font-size: 36px;
+	font-weight: 700;
+	border-bottom: 1px dotted #ccc;
+}
+.ad-hd li:last-child{
+	color: #5c5c5c;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.ad-hd a:last-child{
+	display: inline-block;
+	width: 138px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	color: #cf2b2c;
+	font-size: 18px;
+	border: 1px solid #cf2b2c;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	bottom: -30px;
+	transform: translate(-50%, -50%);
+}
+a:last-child i{
+	font-family: "icomoon";
+	font-style: normal;
+	font-size: 18px;
+	vertical-align: middle;	/*小技巧*/
+	display: inline-block;
+}
+.ad-bd{
+	width: 300px;
+	height: 186px;
+	margin-top: 60px;
+	box-shadow: 5px 5px 60px  120px rgba(255, 255, 255, 0.5);
+}
+/*tab栏部分*/
+.entry{
+	width: 455px;	
+	height: 472px;
+	background-color: #fff;
+	float: right;
+	padding: 15px 80px 0;
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.1),-2px -2px 5px rgba(0,0,0,.1);
+}
+.tab-hd a{
+	color: #707070;
+	font-size: 16px;
+}
+.tab-hd a:hover{
+	color: #478cdb;
+}
+.youxiang{
+	position: absolute;
+	top: 16px;
+	right: 42px;
+}
+.line{
+	width: 100px;
+	height: 2px;
+	background-color: #3182d9;
+	position: absolute;
+	top: 40px;
+	right: 42px;
+}
+.tab-bd{
+	width: 330px;
+}
+.tab-bd-email{
+	width: 330px;
+	height: 45px;
+	position: relative;
+	margin: 40px 0 15px;
+/*	background-color: pink;	*/
+}
+.tab-bd-email input, .tab-bd-mima input{
+	width: 330px;
+	height: 45px;
+	border: 1px solid #c5cddb;
+	padding-left: 45px;
+	color: #dcdcdc;
+	font-size: 12px;
+}
+.tab-bd-email em{
+	background: url(../images/sprite.png) no-repeat -250px -89px;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 22px;
+	transform: translate(-50%, -50%);
+}
+.tab-bd-email span{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+	color: #616161;
+	font-size: 16px;
+}
+.tab-bd-mima{
+	width: 330px;
+	height: 45px;
+	position: relative;
+	margin-bottom: 15px;
+}
+.tab-bd-mima em{
+	width: 20px;
+	height: 20px;
+	background: url(../images/sprite.png) no-repeat -292px -89px;
+	position: absolute;
+	top: 50%;
+	left: 22px;
+	transform: translate(-50%, -50%);
+}
+.miandeng{
+	float: left;
+	cursor: pointer;
+}
+.miandeng input{
+	width: 20px;
+	height: 15px;
+	border: 1px solid #c5cddb;
+	outline: none;
+	background: url(../images/kuang_03.png) no-repeat;
+	vertical-align: middle;
+} 
+.miandeng span{
+	color: #999;
+	font-size: 12px;
+	display: inline-block;
+}
+.tab-bd a{
+	color: #3182d9;
+	font-size: 12px;
+	float: right;
+}
+.button-box{
+	width: 330px;
+	height: 50px;
+/*	background-color: pink;	*/
+	margin-top: 75px;
+}
+.button-box input{
+	width: 160px;
+	height: 50px;
+	border: 0;
+	outline: none;
+	background-color: #3182d9;
+	float: left;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.button-box input:last-child{
+	float: right;
+	color: #3182d9;
+	border: 1px solid #abccef;
+	background-color: #eaf2fb;
+}
+.button-box input:hover{
+	background-color: #2476ce;
+}
+.button-box input:last-child:hover{
+	background-color: #d6e6f7;
+}
+.tab-bd .vip{
+	width: 215px;
+	height: 25px;
+	line-height: 25px;
+	margin: 30px auto 25px;
+}
+.vip a{
+	float: left;
+	color: #d90000;
+	font-size: 16px;
+	font-weight: 700;
+}
+.vip i{
+	width: 25px;
+	height: 25px;
+	float: right;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	background-color: #d90000;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.entry-footer{
+	width: 455px;
+	height: 75px;
+	background-color: #fafafa;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding-top: 10px;
+}
+.entry-footer a{
+	padding: 0 80px 0;
+	height: 25px;
+	line-height: 25px;
+	color: #999;
+	font-size: 14px;
+}
+.entry-footer .a-two{
+	color: #cb4444;
+}
+.banner s{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-decoration: none;
+	font-family: "icomoon";
+	color: #78787A;
+	font-size: 20px;
+}
+.banner .s-one{
+	right: 30px;
+}
+/*版心 end*/
+
+/*尾部 start*/
+footer{
+	background-color: #fff;
+}
+.copyright{
+	height: 106px;
+/*	background-color: pink;	*/
+	position: relative;
+}	
+.logo{
+	width: 95px;
+	height: 30px;
+	position: absolute;
+	top: 25px;
+	left: 0;
+}
+.logo img{
+	width: 95px;
+	height: 30px;
+}
+.copyright-news{
+	width: 626px;
+	height: 30px;
+	text-align: center;		/*！！是给这位大佬加水平居中*/
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -313px;
+	margin-top: 30px;
+}
+.copyright-news a{
+	height: 25px;
+	line-height: 25px;
+	color: #848594;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.copyright-news a:hover{
+	color: #626262;
+}
+.copyright-news p{
+	color: #848594;
+	font-size: 12px;
+	height: 25px;
+	margin-top: 5px;
+}
+/*尾部 end*/
